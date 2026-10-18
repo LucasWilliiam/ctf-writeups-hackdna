@@ -39,7 +39,6 @@ Para contornar a restrição baseada em endereço IP, explorou-se a técnica de 
 2. **Requisição Exemplo:**
    ```bash
    curl -H "X-Forwarded-For: 127.0.0.1" http://<TARGET_IP>/
-   
    🛡️ Lições Aprendidas & Mitigação (Visão Defensiva)
 Confiança Cega em Cabeçalhos: Aplicações web não devem confiar unicamente em cabeçalhos HTTP configuráveis pelo cliente (como X-Forwarded-For) para autenticar ou autorizar acessos críticos.
 
