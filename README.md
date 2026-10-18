@@ -1,4 +1,3 @@
-# ctf-writeups-hackdna
 
 # 🚩 HackDNA CTF Writeups
 
