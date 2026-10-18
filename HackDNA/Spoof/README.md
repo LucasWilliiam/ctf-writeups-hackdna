@@ -38,9 +38,12 @@ Para contornar a restrição baseada em endereço IP, explorou-se a técnica de 
 1. **Injeção de Cabeçalhos / Pacotes:** Adição do cabeçalho de origem confiável (ex: `127.0.0.1` ou IP interno da rede) para simular o tráfego legítimo.
 2. **Requisição Exemplo:**
    ```bash
-   curl -H "X-Forwarded-For: 127.0.0.1" http://<TARGET_IP>/;
+   curl -H "X-Forwarded-For: 127.0.0.1" http://<TARGET_IP>/
+   ```
 
-   🛡️ Lições Aprendidas & Mitigação (Visão Defensiva)
+   
+🛡️ Lições Aprendidas & Mitigação (Visão Defensiva)
+
 Confiança Cega em Cabeçalhos: Aplicações web não devem confiar unicamente em cabeçalhos HTTP configuráveis pelo cliente (como X-Forwarded-For) para autenticar ou autorizar acessos críticos.
 
 Autenticação Forte: Implementação de mecanismos de autenticação e autorização baseados em tokens (ex: JWT, OAuth) ou certificados, e não em dados de origem facilmente manipuláveis.
