@@ -45,3 +45,4 @@ Confiança Cega em Cabeçalhos: Aplicações web não devem confiar unicamente e
 Autenticação Forte: Implementação de mecanismos de autenticação e autorização baseados em tokens (ex: JWT, OAuth) ou certificados, e não em dados de origem facilmente manipuláveis.
 
 Configuração de Reverse Proxy / Firewall: Garantir que o Proxy/WAF limpe ou reescreva adequadamente os cabeçalhos de encaminhamento vindos de redes externas não confiáveis.
+<img width="1585" height="662" alt="image" src="https://github.com/user-attachments/assets/fb74cd22-fb64-45c6-8776-3963b92f56ab" />
