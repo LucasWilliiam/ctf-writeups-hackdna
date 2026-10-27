@@ -49,4 +49,5 @@ Evitar Inclusão Dinâmica Baseada em Input: Nunca utilizar diretamente variáve
 Lista Branca (Whitelist): Se a inclusão dinâmica for estritamente necessária, implementar uma validação rigorosa utilizando uma lista restrita de ficheiros permitidos.
 
 Desativação de Allow URL Include: Garantir que diretivas sensíveis no ficheiro de configuração do PHP (php.ini) estejam devidamente restritas (allow_url_include = Off).
+
 <img width="1392" height="616" alt="image" src="https://github.com/user-attachments/assets/58b4662b-2055-4771-8b00-0b9262eed39a" />
