@@ -41,7 +41,7 @@ Após identificar o ponto de entrada vulnerável à inclusão de ficheiros:
    Obtenção da Flag: Direcionamento da consulta para o caminho onde se encontrava o ficheiro alvo da flag (flag.txt), recuperando o seu conteúdo diretamente através da resposta HTTP da aplicação.
 
 ## 3. Conclusão & Obtenção da Flag
-A aplicação processou o parâmetro sem a devida sanitização, revelando o conteúdo confidencial do ficheiro alvo e permitindo submeter com sucesso a flag.txt na plataforma HackDNA[cite: 12].
+A aplicação processou o parâmetro sem a devida sanitização, revelando o conteúdo confidencial do ficheiro alvo e permitindo submeter com sucesso a flag.txt na plataforma HackDNA.
 
 ## 🛡️ Lições Aprendidas & Mitigação (Visão Defensiva)
 Evitar Inclusão Dinâmica Baseada em Input: Nunca utilizar diretamente variáveis fornecidas pelo utilizador em funções de inclusão de ficheiros do PHP (include, require, etc.).
