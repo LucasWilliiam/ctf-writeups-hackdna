@@ -28,7 +28,7 @@ Com o início da máquina, o primeiro passo foi realizar a varredura de portas p
 
 ```bash
 nmap -sC -sV -p- <IP_DA_MAQUINA>
-
+'''
 
 Resultados encontrados:
 Porta 21/FTP: Serviço vsftpd ativo, permitindo o acesso de utilizadores não autenticados através de login anónimo.
@@ -47,4 +47,3 @@ Transferência de Ficheiros: Utilizou-se o comando get para transferir os fichei
 3. Conclusão & Obtenção da Flag
 Através da análise dos ficheiros transferidos do servidor FTP, localizou-se a flag correspondente (flag.txt), concluindo com sucesso o laboratório na plataforma HackDNA.
 
-<img width="1310" height="415" alt="image" src="https://github.com/user-attachments/assets/25472047-908a-46b0-9569-b0e9ca13fb76" />
