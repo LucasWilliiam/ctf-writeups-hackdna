@@ -57,4 +57,5 @@ Políticas de Palavras-Passe Fortes: Garantir que contas de serviço ou utilizad
 
 Princípio do Menor Privilégio: Auditar regularmente os binários com permissões SUID e as permissões de comandos sudo para evitar escalações de privilégio indesejadas no Linux.
 
+
 <img width="1318" height="715" alt="image" src="https://github.com/user-attachments/assets/c8512673-e4fa-4d76-a12c-e106d36d86b2" />
