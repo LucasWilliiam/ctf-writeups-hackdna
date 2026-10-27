@@ -52,5 +52,6 @@ Desativação de Login Anónimo: O serviço FTP nunca deve permitir acessos anó
 Controlo Rigoroso de Permissões: Garantir que diretórios partilhados possuam restrições estritas de leitura e escrita, evitando a exposição acidental de dados confidenciais.
 
 Auditoria de Configurações: Realizar varreduras periódicas de infraestrutura para identificar serviços legados ou mal configurados expostos na rede.
+
 <img width="1336" height="430" alt="image" src="https://github.com/user-attachments/assets/20c251ab-62f1-411b-8f21-f32ea6847341" />
 
