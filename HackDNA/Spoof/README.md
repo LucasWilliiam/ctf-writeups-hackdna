@@ -50,4 +50,5 @@ Autenticação Forte: Implementação de mecanismos de autenticação e autoriza
 
 Configuração de Reverse Proxy / Firewall: Garantir que o Proxy/WAF limpe ou reescreva adequadamente os cabeçalhos de encaminhamento vindos de redes externas não confiáveis.
 
+
 <img width="1598" height="695" alt="image" src="https://github.com/user-attachments/assets/20779976-7b8b-4aeb-be5d-a3e1d23ec1ee" />
