@@ -42,7 +42,7 @@ Para contornar a restrição baseada em endereço IP, explorou-se a técnica de 
    ```
 
    
-🛡️ Lições Aprendidas & Mitigação (Visão Defensiva)
+## 🛡️ Lições Aprendidas & Mitigação (Visão Defensiva)
 
 Confiança Cega em Cabeçalhos: Aplicações web não devem confiar unicamente em cabeçalhos HTTP configuráveis pelo cliente (como X-Forwarded-For) para autenticar ou autorizar acessos críticos.
 
