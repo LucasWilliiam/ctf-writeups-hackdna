@@ -36,8 +36,7 @@ Porta 21/FTP: Serviço vsftpd ativo, permitindo o acesso de utilizadores não au
 Com base na descoberta de que o serviço FTP permitia conexões genéricas:
 
 Acesso Anónimo: Efetuou-se a ligação ao servidor FTP utilizando o utilizador anonymous (sem palavra-passe ou com uma credencial genérica):
-
-## ftp <TARGET_IP>
+ ftp <TARGET_IP>
 Enumeração de Diretórios: Listaram-se os diretórios e ficheiros disponíveis no servidor com o comando ls -la para encontrar elementos ocultos ou partilhas abertas.
 
 Transferência de Ficheiros: Utilizou-se o comando get para transferir os ficheiros descobertos para a máquina local.
@@ -51,3 +50,5 @@ Desativação de Login Anónimo: O serviço FTP nunca deve permitir acessos anó
 Controlo Rigoroso de Permissões: Garantir que diretórios partilhados possuam restrições estritas de leitura e escrita, evitando a exposição acidental de dados confidenciais.
 
 Auditoria de Configurações: Realizar varreduras periódicas de infraestrutura para identificar serviços legados ou mal configurados expostos na rede.
+<img width="1336" height="430" alt="image" src="https://github.com/user-attachments/assets/20c251ab-62f1-411b-8f21-f32ea6847341" />
+
