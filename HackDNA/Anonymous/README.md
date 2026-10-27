@@ -28,22 +28,26 @@ Com o início da máquina, o primeiro passo foi realizar a varredura de portas p
 
 ```bash
 nmap -sC -sV -p- <IP_DA_MAQUINA>
-'''
-
-Resultados encontrados:
+```
+## Resultados encontrados:
 Porta 21/FTP: Serviço vsftpd ativo, permitindo o acesso de utilizadores não autenticados através de login anónimo.
 
-2. Exploração (Exploitation)
+## 2. Exploração (Exploitation)
 Com base na descoberta de que o serviço FTP permitia conexões genéricas:
 
 Acesso Anónimo: Efetuou-se a ligação ao servidor FTP utilizando o utilizador anonymous (sem palavra-passe ou com uma credencial genérica):
 
-Bash
-ftp <TARGET_IP>
+## ftp <TARGET_IP>
 Enumeração de Diretórios: Listaram-se os diretórios e ficheiros disponíveis no servidor com o comando ls -la para encontrar elementos ocultos ou partilhas abertas.
 
 Transferência de Ficheiros: Utilizou-se o comando get para transferir os ficheiros descobertos para a máquina local.
 
-3. Conclusão & Obtenção da Flag
+## 3. Conclusão & Obtenção da Flag
 Através da análise dos ficheiros transferidos do servidor FTP, localizou-se a flag correspondente (flag.txt), concluindo com sucesso o laboratório na plataforma HackDNA.
 
+## 🛡️ Lições Aprendidas & Mitigação (Visão Defensiva)
+Desativação de Login Anónimo: O serviço FTP nunca deve permitir acessos anónimos (anonymous_enable=NO) a menos que seja estritamente necessário para repositórios públicos controlados.
+
+Controlo Rigoroso de Permissões: Garantir que diretórios partilhados possuam restrições estritas de leitura e escrita, evitando a exposição acidental de dados confidenciais.
+
+Auditoria de Configurações: Realizar varreduras periódicas de infraestrutura para identificar serviços legados ou mal configurados expostos na rede.
